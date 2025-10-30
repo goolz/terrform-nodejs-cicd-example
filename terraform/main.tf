@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "pavan-your-terraform-state-bucket"
+    bucket = "goolz-terraform-state-bucket"
     key    = "ecs/hello-world-app/terraform.tfstate"
     region = "us-east-2"
   }
